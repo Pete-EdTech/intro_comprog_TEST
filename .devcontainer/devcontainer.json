@@ -1,6 +1,6 @@
 {
   "name": "Python Development",
-  "image": "python:latest",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.9",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "python.defaultInterpreterPath": "/usr/local/bin/python"
