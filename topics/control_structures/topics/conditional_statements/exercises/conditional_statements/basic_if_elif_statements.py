@@ -1,9 +1,13 @@
 # basic_if_elif_statements.py
 
 def check_number(number):
-    # TODO: Implement the logic to check if the number is positive, negative, or zero.
-    # Hint: Use if, elif, and else for comparison.
-    pass
+    # Comparing the number to determine its nature
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
 
 def main():
     number = int(input("Enter an integer: "))
